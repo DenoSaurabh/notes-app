@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    background-image: url(image.jpg);
+    height: 735px;
+   /* background-position: center;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 7px solid rgb(15, 255, 195);
+
+}
+
+.h1-title{
+    text-align: center;
+    font-family: monospace;
+    font-size: 4.2rem;
+    margin-top: 70px;
+    color: lavender;
+    font-weight: 800;
+}
+
+
+/* ************************************************************************************************** */
+
+
+.input{margin-left: 20px; margin-bottom: 30px}
+
+.input-container{
+    width: 100%;            /* 1535px */
+    height: 140%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 130px;
+    margin-bottom: 0px;
+    display: inline-block;
+    background-color: white;
+    border-top: 7px solid rgb(15, 255, 195);
+    /*border-bottom: 7px solid rgb(15, 255, 195);*/
+    text-align: center;
+}
+
+.add__description,
+.add__date, .add__time, .ico {
+    margin-top: 60px;
+    border: 1px solid #a3a3a3;
+    background-color: #fff;
+    color: inherit;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 12px 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+    transition: border 0.3s;
+}
+
+.add__description { width: 400px;}
+.add__date, .add__time { width: 150px;}
+
+.add__btn {
+    font-size: 35px;
+    background: none;
+    border: none;
+    color: #28B9B5;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.1;
+    margin-left: 10px;
+}
+
+.add__btn:active { transform: translateY(2px); }
+
+.add__type:focus,
+.add__description:focus,
+.add__date:focus,  .add__time:focus{
+    outline: none;
+    border: 1px solid rgb(0, 81, 255);
+}
+
+.add__btn:focus { outline: none; }
+
+.container-h3 {
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    width: 300px;
+}
+
+/* ************************************************************** */
+
+.list{
+    display: inline-block;
+    margin-top: 20px;
+    
+}
+
+.p-id, .p-description, .p-date, .p-time{
+    font-size: 22px;
+    font-family: monospace;
+    display: inline;
+    margin-right: 30px;
+    opacity: 0.8;
+    font-weight: lighter;
+    
+
+    border: 2px solid rgb(0, 132, 255);
+    border-radius: 8px;
+    padding: 12px;
+
+    
+}
+
+.todo-list{
+    margin-bottom: 60px;
+    background-color: white;
+    padding: 30px;
+    border-bottom: 2px solid lightgrey;
+
+}
+
+/* ********************************************************************** */
+
+.ico:hover{
+    cursor: pointer;
+}
+
+/* ************************************************************** */
+
+.del-icon, .edit-icon{
+    background-color: white;
+    border: none;
+}
+
+.del-icon:focus, .edit-icon:focus{
+    outline: none;
+}
+
+.del-icon:hover, .edit-icon:hover{
+    cursor: pointer;
+}
+
+.del-icon{
+    margin-right: 22px;
+}
+
+/* ************************************************************** */
+
+
+.todo-list--1{
+    display: none;
+}
+
+/* ************************************************************** */
+
+.change_btn {
+    position: relative;
+    top: 20px;
+    border: none;
+    background-color: white;
+    width: 20px;
+
+}
+
+.change_btn:focus{
+    outline: none
+}
+
+.change_btn:hover{
+    cursor: pointer;
+}
+
+/* ************************************************************** */
+
+.circle_img{
+    position: relative;
+    top: 6px;
+    margin-top: 35px;
+    margin-right: 30px;
+    width: 20px;
+    height: auto;
+    opacity: 0.5;
+}
+
+.circle_img:hover{
+    cursor: pointer;
+}
+
+/* ************************************************************** */
+
